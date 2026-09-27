@@ -1,9 +1,9 @@
 cask "opcua-browser" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "fc70148e84b34dfaf740801c737954fd70d6aaad8dd33dea45506f514bd57bb1",
-         intel: "20eabc223620e9097b13b18568f02082bd07377e80352d17d83a2d46a953a308"
+  version "0.2.0"
+  sha256 arm:   "a9ec14e99cbacc5db945f2044c2c61ca7a25324a288699e53dc0612b11f83da1",
+         intel: "2ad9db10a0cf0a579e9cda6cb0580f35927abc436c1aa4d4dbaf9ede8c26a7ca"
 
   url "https://github.com/ZaoralJ/OpcUaBrowser/releases/download/v#{version}/OpcUaBrowser-#{version}-osx-#{arch}.zip"
   name "OPC UA Browser"
