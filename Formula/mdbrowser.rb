@@ -1,28 +1,28 @@
 class Mdbrowser < Formula
   desc "Browse, read and monitor machine data over OPC UA, EtherNet/IP (Logix) and MQTT"
   homepage "https://zaoralj.github.io/MachineDataBrowser/"
-  version "0.29.3"
+  version "0.30.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ZaoralJ/MachineDataBrowser/releases/download/v#{version}/mdbrowser-#{version}-osx-arm64.tar.gz"
-      sha256 "12a833a8e311d9b9cc7031244a010e1319163d8b6d12d875c58d887b92a76253"
+      sha256 "0d1100e99a90fd4041b6e0c80c14b7f56194367c1cb669a27c7501fe8b5d26ac"
     end
     on_intel do
       url "https://github.com/ZaoralJ/MachineDataBrowser/releases/download/v#{version}/mdbrowser-#{version}-osx-x64.tar.gz"
-      sha256 "40aba5129a477ed93825aa3db6eddf444ccfd6f7ebfcc1d85b55061f4cfbebe3"
+      sha256 "1ea35e702686431ad17b850e1bf1ea2c8276a8ed6a4b244cdbbe3352803191c8"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ZaoralJ/MachineDataBrowser/releases/download/v#{version}/mdbrowser-#{version}-linux-arm64.tar.gz"
-      sha256 "8a821fa5d6193b0f39cfd1eb6704030edee64e2a6b0252e6a399224cbb6c70db"
+      sha256 "a142628efe8f75f1ddf6aeac2941d407952c8ed91038d62aa7c976a94552fe6d"
     end
     on_intel do
       url "https://github.com/ZaoralJ/MachineDataBrowser/releases/download/v#{version}/mdbrowser-#{version}-linux-x64.tar.gz"
-      sha256 "acd213f9a2b6e906fafc2ab3c76c9a5eb4f6c432a1768c690ca3b17d29735239"
+      sha256 "22160f5a2780783730bba18560ce05db18bc33c14d618e48dceeeddc4122612c"
     end
   end
 
