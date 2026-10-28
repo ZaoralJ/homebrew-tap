@@ -1,9 +1,9 @@
 cask "machine-data-browser" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.39.0"
-  sha256 arm:   "f5b92ab3b2c1b22cf9b86ab88702592fb51e4432f7ff2113e27c858cc4f78152",
-         intel: "633b14dd686b858c97f02bb8b621e6e5e316cf5f2ced05c1eaf84f7f9501a349"
+  version "0.40.0"
+  sha256 arm:   "4abbd79c89e2106f13ce5d4a2974cfe39dad8228642f0a9731668cfbc21e77c8",
+         intel: "be7f8be63e7e8ac24cf332fa45d7036235849b5ce4bfc65123f4230b32ea2bd2"
 
   url "https://github.com/ZaoralJ/MachineDataBrowser/releases/download/v#{version}/MachineDataBrowser-#{version}-osx-#{arch}.zip"
   name "Machine Data Browser"
